@@ -51,6 +51,27 @@ Creativity is still required. The process discussed is high level enough to offe
 
 **Welcome new problems.** Do not fret when working on unfamiliar problems. Experience is the foundation of intelligence. With each example the more familiar it becomes and the quicker the solution will come. This is the "practice makes perfect" mantra observed.
 
+## Make a Plan
+
+**Make a first-pass solution.** The skill at choosing a solution comes with solving many problems. The priority is in getting something working as soon as possible. Then and only then does it make sense to find the optimal solution.
+
+**Write the pseudocode.** Pseudocode is an informal high level description of your solution. By avoiding the syntax of a programming languages you can focus on solving the problem. Think about the mental steps for running through a test case.
+
+**Use strategies as needed.** Here is a partial list of strategies available. For detailed descriptions of each, follow references linked below:
+
+- Guess and check
+- Make an orderly list
+- Eliminate possibilities
+- Use symmetry
+- Look for a pattern
+- Draw a picture
+- Solve a simpler problem
+- Use a model
+- Consider special cases 
+- Work backwards
+
+**If stuck, step away.** At some point you may find yourself stuck. If you understand the problem and are stumped, try putting the problem aside for a while. Your subconscious may keep working on it.
+
 ## References
 
 - https://en.wikipedia.org/wiki/How_to_Solve_It
