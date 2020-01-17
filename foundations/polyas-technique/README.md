@@ -6,7 +6,7 @@
 
     ”Pain + Reflection = Progress” – Ray Dalio
 
-This document is by and for Software Engineers. But the skill of solving problems in a systematic way is not specific to any single profession. To go even further, the framework presented is useful to life outside of work.
+This document is by and for Software Engineers. But the skill of solving problems in a systematic way is not specific to any single profession. To go even further, the framework presented here is useful to life outside of work.
 
 The goal of this document is to teach a method for problem solving. More important than knowing any single programming language or framework is the ability to solve problems. Such a method must be generalized enough to be broadly applicable.
 
@@ -71,6 +71,22 @@ Creativity is still required. The process discussed is high level enough to offe
 - Work backwards
 
 **If stuck, step away.** At some point you may find yourself stuck. If you understand the problem and are stumped, try putting the problem aside for a while. Your subconscious may keep working on it.
+
+## Implement the Plan
+
+**Patience is key.** To follow a plan requires patience over anything else. Creative energies were necessary in the previous two phases, now we are on autopilot. Our minds are prone to wander and get bored. Stay focused and persist with the plan you've chosen.
+
+**Check each step.** In implementing your plan be meticulous to avoid missing any detail. Can you walk the solution clearly? Write some test cases to ensure your solution works as intended.
+
+**Repeat previous steps as needed.** While there is an order to these steps it may be the case where you need to repeat a step. Perhaps your plan is insufficient or your understanding of the problem is lacking. Starting the process over again may be the best decision.
+
+## Look Back on your Work
+
+**Reflect on what you did.** Pólya highlights the value in taking time to look back at what you have done. Consider what worked and what did not. Think of related problems that your solution could be applied to.
+
+**Verify your solution.** In reviewing your work try to verify the solution works. Consider edge cases where it may fail. Be unsatisified with a single test case working. Be rigourous in testing.
+
+**Think of improvements.** Consider the performance characteristics using Big O Notation. Can you think of a different way to solve the problem? Does it improve the current solution?
 
 ## References
 
