@@ -4,6 +4,16 @@ It's useful to have an objective way to compare the performance of an algorithm.
 
 Big O Notation is a measure of the time and space complexity of an algorithm.
 
+## Big O Classifications
+
+    Constant.......O(1)
+    Logarithmic....O(log n)
+    Linear.........O(n)
+    Linearithmic...O(n log n)
+    Polynomial.....O(n ^ c)
+    Exponential....O(c ^ n)
+    Factorial......O(n!)
+
 ## References
 
 - https://en.wikipedia.org/wiki/Big_O_notation
