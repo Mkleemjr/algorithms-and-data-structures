@@ -1,16 +1,21 @@
 package DiagonalDifference
 
+import "math"
+
 func DiagonalDifference(arr [][]int) int {
-	// Initial first diagonal sum = 0
-	// Initial second diagonal sum = 0
+	firstSum := 0
+	secondSum := 0
 
-	// Loop over rows, i
-		// Loop over columns, j
-			// Check i == j
-				// Add sum first diagonal
-			// Check len(arr[0]) - 1 - i == j
-				// Add sum second diagonal
+	for i := 0; i < len(arr); i++ {
+		for j := 0; j < len(arr[0]); j++ {
+			if i == j {
+				firstSum += arr[i][j]
+			}
+			if len(arr[0]) - 1 - i == j {
+				secondSum += arr[i][j]
+			}
+		}
+	}
 
-	// Take absolute difference
-	return 0
+	return int(math.Abs(float64(firstSum) - float64(secondSum)))
 }
