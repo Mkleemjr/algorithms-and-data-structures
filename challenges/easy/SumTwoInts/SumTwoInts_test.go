@@ -3,7 +3,7 @@ package SumTwoInts
 import "testing"
 
 func PrintError(t *testing.T, a, b, expect_x, actual_x uint32) {
-  t.Errorf("SumTwoInts(%d, %d) returns %d; expects %d", a, b, actual_x, expect_x)
+	t.Errorf("SumTwoInts(%d, %d) returns %d; expects %d", a, b, actual_x, expect_x)
 }
 
 func TestSumTwoInts(t *testing.T) {
