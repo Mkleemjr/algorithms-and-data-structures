@@ -17,7 +17,7 @@ Big O Notation is a measure of the time and space complexity of an algorithm. In
 ## Steps
 
 1. Identify what the input `n` is.
-2. Express the max number of operations, in terms of n.
+2. Express the max number of operations, in terms of `n`.
 3. Eliminate all excluding the highest order terms.
 4. Remove all the constant factors.
 
