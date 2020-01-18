@@ -14,4 +14,10 @@ func TestArraySum(t *testing.T) {
 	if sum != 11111 {
 		t.Errorf("ArraySum([10000,1000,100,10,1]) expects 11111; actual %v", sum)
 	}
+
+	arr = []int{1,2,3,4,10,11}
+	sum = ArraySum(arr)
+	if sum != 31 {
+		t.Errorf("ArraySum([1,2,3,4,10,11]) expects 31; actual %v", sum)
+	}
 }
