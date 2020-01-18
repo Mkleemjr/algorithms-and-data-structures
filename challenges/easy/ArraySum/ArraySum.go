@@ -1,5 +1,11 @@
 package ArraySum
 
 func ArraySum(arr []int) int {
-	return 0
+	sum := 0
+
+	for i := range arr {
+		sum += arr[i]
+	}
+
+	return sum
 }
